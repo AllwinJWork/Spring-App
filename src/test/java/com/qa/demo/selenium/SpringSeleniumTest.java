@@ -60,6 +60,9 @@ public class SpringSeleniumTest {
 
 		assertTrue(card.getText().contains("Mr Bigglesworth"));
 	}
+	
+	@Test 
+	
 
 	@AfterEach
 	void tearDown() {		
